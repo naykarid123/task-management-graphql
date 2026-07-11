@@ -1,0 +1,31 @@
+# Dependencias
+/node_modules
+
+# Compilado / build
+/dist
+/build
+
+# Variables de entorno (NUNCA subir)
+.env
+.env.local
+.env.*.local
+
+# Esquema de GraphQL generado automaticamente (code-first)
+/schema.gql
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editores / IDE
+.idea
+.vscode/*
+!.vscode/extensions.json
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
